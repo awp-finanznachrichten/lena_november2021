@@ -168,41 +168,41 @@ for (i in 1:length(vorlagen_short)) {
   
 
   #Anpassungen (Hautemorges VD)
-  gemeinde_adapt <- output_dw[output_dw$Gemeinde_Nr == 5656,] 
+  #gemeinde_adapt <- output_dw[output_dw$Gemeinde_Nr == 5656,] 
  
-  gemeinde_adapt$Gemeinde_Nr[1] <- 5421
-  output_dw <- rbind(output_dw,gemeinde_adapt)
+  #gemeinde_adapt$Gemeinde_Nr[1] <- 5421
+  #output_dw <- rbind(output_dw,gemeinde_adapt)
   
-  gemeinde_adapt$Gemeinde_Nr[1] <- 5625
-  output_dw <- rbind(output_dw,gemeinde_adapt)
+  #gemeinde_adapt$Gemeinde_Nr[1] <- 5625
+  #output_dw <- rbind(output_dw,gemeinde_adapt)
   
-  gemeinde_adapt$Gemeinde_Nr[1] <- 5478
-  output_dw <- rbind(output_dw,gemeinde_adapt)
+  #gemeinde_adapt$Gemeinde_Nr[1] <- 5478
+  #output_dw <- rbind(output_dw,gemeinde_adapt)
   
-  gemeinde_adapt$Gemeinde_Nr[1] <- 5494
-  output_dw <- rbind(output_dw,gemeinde_adapt)
+  #gemeinde_adapt$Gemeinde_Nr[1] <- 5494
+  #output_dw <- rbind(output_dw,gemeinde_adapt)
   
-  gemeinde_adapt$Gemeinde_Nr[1] <- 5644
-  output_dw <- rbind(output_dw,gemeinde_adapt)
+  #gemeinde_adapt$Gemeinde_Nr[1] <- 5644
+  #output_dw <- rbind(output_dw,gemeinde_adapt)
   
-  gemeinde_adapt$Gemeinde_Nr[1] <- 5500
-  output_dw <- rbind(output_dw,gemeinde_adapt)
+  #gemeinde_adapt$Gemeinde_Nr[1] <- 5500
+  #output_dw <- rbind(output_dw,gemeinde_adapt)
   
   #Anpassung (Tresa TI)
 
-  gemeinde_adapt <- output_dw[output_dw$Gemeinde_Nr == 5239,] 
+  #gemeinde_adapt <- output_dw[output_dw$Gemeinde_Nr == 5239,] 
   
-  gemeinde_adapt$Gemeinde_Nr[1] <- 5178
-  output_dw <- rbind(output_dw,gemeinde_adapt)
+  #gemeinde_adapt$Gemeinde_Nr[1] <- 5178
+  #output_dw <- rbind(output_dw,gemeinde_adapt)
   
-  gemeinde_adapt$Gemeinde_Nr[1] <- 5202
-  output_dw <- rbind(output_dw,gemeinde_adapt)
+  #gemeinde_adapt$Gemeinde_Nr[1] <- 5202
+  #output_dw <- rbind(output_dw,gemeinde_adapt)
   
-  gemeinde_adapt$Gemeinde_Nr[1] <- 5213
-  output_dw <- rbind(output_dw,gemeinde_adapt)
+  #gemeinde_adapt$Gemeinde_Nr[1] <- 5213
+  #output_dw <- rbind(output_dw,gemeinde_adapt)
   
-  gemeinde_adapt$Gemeinde_Nr[1] <- 5222
-  output_dw <- rbind(output_dw,gemeinde_adapt)
+  #gemeinde_adapt$Gemeinde_Nr[1] <- 5222
+  #output_dw <- rbind(output_dw,gemeinde_adapt)
   
   
   #Output speichern
