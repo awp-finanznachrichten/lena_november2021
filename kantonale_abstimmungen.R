@@ -112,7 +112,7 @@ for (k in 1:length(kantonal_short) ) {
     }
     
     #Textvorlagen laden
-    Textbausteine <- as.data.frame(read_excel("Data/Textbausteine_LENA_September2021.xlsx", 
+    Textbausteine <- as.data.frame(read_excel("Data/Textbausteine_LENA_November2021.xlsx", 
                                               sheet = kantonal_short[k]))
     cat("Textvorlagen geladen\n\n")
     

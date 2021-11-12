@@ -28,7 +28,7 @@ time_start <- Sys.time()
 source("nationale_abstimmungen.R", encoding="UTF-8")
 
 ###Kantonale Abstimmungen###
-source("kantonale_abstimmungen.R", encoding="UTF-8")
+#source("kantonale_abstimmungen.R", encoding="UTF-8")
 
 ###Kantonale Abstimmungen Sonderfälle###
 #source("kantonale_abstimmungen_special.R", encoding="UTF-8")

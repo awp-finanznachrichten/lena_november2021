@@ -10,14 +10,14 @@ for (i in 1:length(vorlagen_short)) {
   results_national <- get_results(json_data,i,level="national")
   
   ###Nationale Resultate simulieren
-  #set.seed(i)
-  #results_national$jaStimmenInProzent <- sample(0:100,1)
+  set.seed(i)
+  results_national$jaStimmenInProzent <- sample(0:100,1)
 
   ###Resultate aus JSON auslesen für Gemeinden
   results <- get_results(json_data,i)
   
 #Simulation Gemeinden
-#source("data_simulation_gemeinden.R")
+source("data_simulation_gemeinden.R")
   
 
   #Emergency adapt
@@ -34,7 +34,7 @@ for (i in 1:length(vorlagen_short)) {
   results_kantone <- get_results(json_data,i,"cantonal")
   
   #Simulation Kantone
-  #source("data_simulation_kantone.R")
+  source("data_simulation_kantone.R")
   
   Ja_Stimmen_Kanton <- results_kantone %>%
     select(Kantons_Nr,jaStimmenInProzent) %>%
@@ -91,7 +91,7 @@ for (i in 1:length(vorlagen_short)) {
     
     #Check Vorlagen-ID
     
-    if (vorlagen$id[i] == "6380") { 
+    if (vorlagen$id[i] == "6500") { 
       
       hist_check <- TRUE 
       data_hist <- format_data_hist(daten_covid_bfs)
@@ -104,7 +104,7 @@ for (i in 1:length(vorlagen_short)) {
     #Vergleich innerhalb des Kantons (falls alle Daten vom Kanton vorhanden)
     
     #Check Vorlagen-ID
-    #if (vorlagen$id[i] == "6390" || vorlagen$id[i] == "6400") {
+    if (vorlagen$id[i] == "6480" || vorlagen$id[i] == "6490") {
       
       #Falls mindestens ein Kanton ausgezählt -> Stories für die Kantone finden
       
@@ -114,13 +114,13 @@ for (i in 1:length(vorlagen_short)) {
         
       }
       
-    #}
+    }
     
     
     ###Storybuilder
     
     #Textvorlagen laden
-    Textbausteine <- as.data.frame(read_excel("Data/Textbausteine_LENA_September2021.xlsx", 
+    Textbausteine <- as.data.frame(read_excel("Data/Textbausteine_LENA_November2021.xlsx", 
                                               sheet = vorlagen_short[i]))
     cat("Textvorlagen geladen\n\n")
     
@@ -166,44 +166,6 @@ for (i in 1:length(vorlagen_short)) {
   #Output Abstimmungen Gemeinde
   output_dw <- get_output_gemeinden(results)
   
-
-  #Anpassungen (Hautemorges VD)
-  #gemeinde_adapt <- output_dw[output_dw$Gemeinde_Nr == 5656,] 
- 
-  #gemeinde_adapt$Gemeinde_Nr[1] <- 5421
-  #output_dw <- rbind(output_dw,gemeinde_adapt)
-  
-  #gemeinde_adapt$Gemeinde_Nr[1] <- 5625
-  #output_dw <- rbind(output_dw,gemeinde_adapt)
-  
-  #gemeinde_adapt$Gemeinde_Nr[1] <- 5478
-  #output_dw <- rbind(output_dw,gemeinde_adapt)
-  
-  #gemeinde_adapt$Gemeinde_Nr[1] <- 5494
-  #output_dw <- rbind(output_dw,gemeinde_adapt)
-  
-  #gemeinde_adapt$Gemeinde_Nr[1] <- 5644
-  #output_dw <- rbind(output_dw,gemeinde_adapt)
-  
-  #gemeinde_adapt$Gemeinde_Nr[1] <- 5500
-  #output_dw <- rbind(output_dw,gemeinde_adapt)
-  
-  #Anpassung (Tresa TI)
-
-  #gemeinde_adapt <- output_dw[output_dw$Gemeinde_Nr == 5239,] 
-  
-  #gemeinde_adapt$Gemeinde_Nr[1] <- 5178
-  #output_dw <- rbind(output_dw,gemeinde_adapt)
-  
-  #gemeinde_adapt$Gemeinde_Nr[1] <- 5202
-  #output_dw <- rbind(output_dw,gemeinde_adapt)
-  
-  #gemeinde_adapt$Gemeinde_Nr[1] <- 5213
-  #output_dw <- rbind(output_dw,gemeinde_adapt)
-  
-  #gemeinde_adapt$Gemeinde_Nr[1] <- 5222
-  #output_dw <- rbind(output_dw,gemeinde_adapt)
-  
   
   #Output speichern
   write.csv(output_dw,paste0("Output/",vorlagen_short[i],"_dw.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
@@ -219,16 +181,16 @@ for (i in 1:length(vorlagen_short)) {
   
   ###Output generieren für Datawrapper Zentralschweiz
   
-  #output_dw_zentralschweiz <- results[results$Kanton_Short == "LU" |
-#                                  results$Kanton_Short == "UR" |
-#                                  results$Kanton_Short == "SZ" |
-#                                  results$Kanton_Short == "OW" |
-#                                  results$Kanton_Short == "NW" |
-#                                  results$Kanton_Short == "ZG",]
+  output_dw_zentralschweiz <- results[results$Kanton_Short == "LU" |
+                                  results$Kanton_Short == "UR" |
+                                  results$Kanton_Short == "SZ" |
+                                  results$Kanton_Short == "OW" |
+                                  results$Kanton_Short == "NW" |
+                                  results$Kanton_Short == "ZG",]
   
-  #output_dw_zentralschweiz <- get_output_gemeinden(output_dw_zentralschweiz)
+  output_dw_zentralschweiz <- get_output_gemeinden(output_dw_zentralschweiz)
   
-  #write.csv(output_dw_zentralschweiz,paste0("Output/",vorlagen_short[i],"_dw_zentralschweiz.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
+  write.csv(output_dw_zentralschweiz,paste0("Output/",vorlagen_short[i],"_dw_zentralschweiz.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
   
   ###Output generieren für Datawrapper Appenzell
   
@@ -249,6 +211,7 @@ for (i in 1:length(vorlagen_short)) {
   write.csv(output_dw_kantone,paste0("Output/",vorlagen_short[i],"_dw_kantone.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
   
   cat(paste0("\nGenerated output for Vorlage ",vorlagen_short[i],"\n"))
+  
   
   #Datawrapper-Karten aktualisieren
   undertitel_de <- "Es sind noch keine Gemeinden ausgezählt."

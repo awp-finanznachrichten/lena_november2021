@@ -13,7 +13,6 @@ library(readxl)
 library(git2r)
 library(DatawRappr)
 
-
 cat("Benoetigte Bibliotheken geladen\n")
 
 #Link zu JSON-Daten / Daten einlesen
