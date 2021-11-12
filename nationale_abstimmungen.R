@@ -283,7 +283,7 @@ uebersicht_text_fr <- paste0("<b>",vorlagen_fr$text[i],"</b><br>",
                              round((sum(results$Gebiet_Ausgezaehlt)*100)/nrow(results),1),
                              "%)")
 
-uebersicht_text_it <- paste0("<b>",vorlagen_fr$text[i],"</b><br>",
+uebersicht_text_it <- paste0("<b>",vorlagen_it$text[i],"</b><br>",
                              sum(results$Gebiet_Ausgezaehlt)," dei ",nrow(results)," comuni sono noti (",
                              round((sum(results$Gebiet_Ausgezaehlt)*100)/nrow(results),1),
                              "%)")
@@ -301,6 +301,12 @@ data_overview <- rbind(data_overview,entry_overview)
 
 #Uebersicht für Datawrapper
 data_overview <- data_overview[-1,]
+
+#Adapt Data Overview
+data_overview$Abstimmung_de <- gsub(" [(]Härtefälle, Arbeitslosenversicherung, familienergänzende Kinderbetreuung, Kulturschaffende, Veranstaltungen[)]","",data_overview$Abstimmung_de)
+data_overview$Abstimmung_fr <- gsub(" [(]Cas de rigueur, assurance-chômage, accueil extra-familial pour enfants, acteurs culturels, manifestations[)]","",data_overview$Abstimmung_fr)
+data_overview$Abstimmung_it <- gsub(" [(]Casi di rigore, assicurazione contro la disoccupazione, custodia di bambini complementare alla famiglia, operatori culturali, eventi[)]","",data_overview$Abstimmung_it)
+
 write.csv(data_overview,"Output/Uebersicht_dw.csv", na = "", row.names = FALSE, fileEncoding = "UTF-8")
 
 #Charts Uebersicht
