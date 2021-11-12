@@ -305,12 +305,12 @@ write.csv(data_overview,"Output/Uebersicht_dw.csv", na = "", row.names = FALSE, 
 
 #Charts Uebersicht
 
-dw_edit_chart("twC56",intro=paste0("Letzte Aktualisierung: ",format(Sys.time(),"%H:%M Uhr")))
-dw_publish_chart("twC56")
+dw_edit_chart("ZquJN",intro=paste0("Letzte Aktualisierung: ",format(Sys.time(),"%H:%M Uhr")))
+dw_publish_chart("ZquJN")
 
-dw_edit_chart("Upk8A",intro=paste0("Dernière mise à jour: ",format(Sys.time(),"%Hh%M")))
-dw_publish_chart("Upk8A")
+dw_edit_chart("4TM5i",intro=paste0("Dernière mise à jour: ",format(Sys.time(),"%Hh%M")))
+dw_publish_chart("4TM5i")
 
-dw_edit_chart("V2NId",intro=paste0("Ultimo aggiornamento: ",format(Sys.time(),"%H:%M")))
-dw_publish_chart("V2NId")
+dw_edit_chart("WkB7e",intro=paste0("Ultimo aggiornamento: ",format(Sys.time(),"%H:%M")))
+dw_publish_chart("WkB7e")
 
