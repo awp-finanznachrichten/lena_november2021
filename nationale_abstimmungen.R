@@ -179,28 +179,8 @@ source("data_simulation_gemeinden.R")
   print(paste0("Nein-Stimmen: ",nrow(count_non_gemeinden),"; Ja-Stimmen: ",nrow(count_yes_gemeinden),
                "; Unentschieden: ",nrow(count_tie_gemeinden)))
   
-  ###Output generieren für Datawrapper Zentralschweiz
   
-  output_dw_zentralschweiz <- results[results$Kanton_Short == "LU" |
-                                  results$Kanton_Short == "UR" |
-                                  results$Kanton_Short == "SZ" |
-                                  results$Kanton_Short == "OW" |
-                                  results$Kanton_Short == "NW" |
-                                  results$Kanton_Short == "ZG",]
-  
-  output_dw_zentralschweiz <- get_output_gemeinden(output_dw_zentralschweiz)
-  
-  write.csv(output_dw_zentralschweiz,paste0("Output/",vorlagen_short[i],"_dw_zentralschweiz.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
-  
-  ###Output generieren für Datawrapper Appenzell
-  
-  output_dw_appenzell <- results[results$Kanton_Short == "AI" |
-                                        results$Kanton_Short == "AR",]
-  
-  output_dw_appenzell <- get_output_gemeinden(output_dw_appenzell)
-  
-  write.csv(output_dw_appenzell,paste0("Output/",vorlagen_short[i],"_dw_appenzell.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
-
+  source("outputs_einzugsgebiete.R", encoding = "UTF-8")
   
   #Log Kantone
   cat(paste0("\n\n",Sys.time()," ",vorlagen_short[i],"\n"),file="Output/log_file.txt",append = TRUE)

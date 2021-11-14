@@ -53,6 +53,7 @@ gitcommit()
 gitpush()
 
 
+
 cat("Daten erfolgreich auf Github hochgeladen\n")
 
 #Wie lange hat LENA gebraucht
