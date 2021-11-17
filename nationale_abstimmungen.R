@@ -120,7 +120,7 @@ source("data_simulation_gemeinden.R")
     ###Storybuilder
     
     #Textvorlagen laden
-    Textbausteine <- as.data.frame(read_excel("Data/Textbausteine_LENA_November2021.xlsx", 
+    Textbausteine <- as.data.frame(read_excel(paste0("Data/Textbausteine_LENA_",abstimmung_date,".xlsx"), 
                                               sheet = vorlagen_short[i]))
     cat("Textvorlagen geladen\n\n")
     
