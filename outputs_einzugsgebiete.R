@@ -33,3 +33,15 @@ output_dw_radiotop <- results[results$Kanton_Short == "ZH" |
 output_dw_radiotop <- get_output_gemeinden(output_dw_radiotop)
 
 write.csv(output_dw_radiotop,paste0("Output/",vorlagen_short[i],"_dw_radiotop.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
+
+###Output generieren für Datawrapper FM1-Today
+
+output_dw_FM1_today <- results[results$Kanton_Short == "SG" |
+                                results$Kanton_Short == "TG" |
+                                results$Kanton_Short == "GR" |
+                                results$Kanton_Short == "AI" |
+                                results$Kanton_Short == "AR",]
+
+output_dw_FM1_today <- get_output_gemeinden(output_dw_FM1_today)
+
+write.csv(output_dw_FM1_today,paste0("Output/",vorlagen_short[i],"_dw_FM1_today.csv"), na = "", row.names = FALSE, fileEncoding = "UTF-8")
