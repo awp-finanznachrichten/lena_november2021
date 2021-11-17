@@ -42,7 +42,7 @@ gitcommit()
 gitpush()
 
 #Tabellen aktualisieren
-#source("topflop.R", encoding = "UTF-8")
+source("topflop.R", encoding = "UTF-8")
 
 #Make Commit
 
