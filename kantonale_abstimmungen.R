@@ -111,3 +111,5 @@ for (k in 1:length(kantonal_short) ) {
   
   
 }
+
+View(results)
