@@ -95,8 +95,9 @@ source("data_simulation_gemeinden.R")
       
       hist_check <- TRUE 
       data_hist <- format_data_hist(daten_covid_bfs)
-      results <- merge(results,data_hist,all.x = TRUE)
-      results <- hist_storyfinder(results)
+      results_hist <- merge(results,data_hist,all.x = TRUE)
+      results <- hist_storyfinder(results_hist)
+      
       
     }
     
@@ -158,8 +159,8 @@ source("data_simulation_gemeinden.R")
   
 
   #Texte speichern
-  library(xlsx)
-  write.xlsx(results,paste0(vorlagen_short[i],"_texte.xlsx"),row.names = FALSE)
+  #library(xlsx)
+  #write.xlsx(results,paste0(vorlagen_short[i],"_texte.xlsx"),row.names = FALSE)
   
   ###Output generieren für Datawrapper
   
@@ -215,7 +216,7 @@ source("data_simulation_gemeinden.R")
                             "</b> comuni sono noti. Stato: <b>",
                             round(results_national$jaStimmenInProzent,1)," %</b> sì, <b>",
                             round(100-results_national$jaStimmenInProzent,1)," %</b> no")
-  
+  }
    
     #Karten Gemeinden
     dw_edit_chart(datawrapper_codes[i,2],intro=undertitel_de,annotate=paste0("Letzte Aktualisierung: ",format(Sys.time(),"%d.%m.%Y %H:%M Uhr")))
@@ -237,7 +238,7 @@ source("data_simulation_gemeinden.R")
     dw_edit_chart(datawrapper_codes[i,7],intro=undertitel_it,annotate=paste0("Ultimo aggiornamento: ",format(Sys.time(),"%d.%m.%Y %H:%M")))
     dw_publish_chart(datawrapper_codes[i,7])
     
-  }
+
 
 #Eintrag für Uebersicht
 uebersicht_text_de <- paste0("<b>",vorlagen$text[i],"</b><br>",
