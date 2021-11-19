@@ -99,8 +99,8 @@ for (k in 1:length(kantonal_short) ) {
   }
   
   #Texte speichern
-  #library(xlsx)
-  #write.xlsx(results,paste0(kantonal_short[k],"_texte.xlsx"))
+  library(xlsx)
+  write.xlsx(results,paste0(kantonal_short[k],"_texte.xlsx"))
   
   ###Output generieren für Datawrapper
   output_dw <- get_output_gemeinden(results)
