@@ -10,14 +10,14 @@ for (i in 1:length(vorlagen_short)) {
   results_national <- get_results(json_data,i,level="national")
   
   ###Nationale Resultate simulieren
-  set.seed(i)
-  results_national$jaStimmenInProzent <- sample(0:100,1)
+  #set.seed(i)
+  #results_national$jaStimmenInProzent <- sample(0:100,1)
 
   ###Resultate aus JSON auslesen für Gemeinden
   results <- get_results(json_data,i)
   
 #Simulation Gemeinden
-source("data_simulation_gemeinden.R")
+#source("data_simulation_gemeinden.R")
   
 
   #Emergency adapt
@@ -95,9 +95,8 @@ source("data_simulation_gemeinden.R")
       
       hist_check <- TRUE 
       data_hist <- format_data_hist(daten_covid_bfs)
-      results_hist <- merge(results,data_hist,all.x = TRUE)
-      results <- hist_storyfinder(results_hist)
-      
+      results <- merge(results,data_hist,all.x = TRUE)
+      results <- hist_storyfinder(results)
       
     }
     
