@@ -8,7 +8,7 @@ for (k in 1:length(kantonal_short) ) {
   
 
   #Simulation Gemeinden
-  #source("data_simulation_gemeinden.R")
+  source("data_simulation_gemeinden.R")
   
   #Daten anpassen Gemeinden
   results <- treat_gemeinden(results)
@@ -20,7 +20,7 @@ for (k in 1:length(kantonal_short) ) {
                                             kantonal_add[k],
                                             "kantonal")
   
-  #results$Ja_Stimmen_In_Prozent_Kanton <- Ja_Stimmen_Kanton
+  results$Ja_Stimmen_In_Prozent_Kanton <- Ja_Stimmen_Kanton
   results$Ja_Stimmen_In_Prozent_Kanton <- 55  #Ja_Stimmen_Kanton Simulation
   
   #Wie viele Gemeinden sind ausgezählt?
