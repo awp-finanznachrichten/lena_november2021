@@ -10,14 +10,14 @@ for (i in 1:length(vorlagen_short)) {
   results_national <- get_results(json_data,i,level="national")
   
 ###Nationale Resultate simulieren
-  #set.seed(i)
-  #results_national$jaStimmenInProzent <- sample(0:100,1)
+  set.seed(i)
+  results_national$jaStimmenInProzent <- sample(0:100,1)
 
   ###Resultate aus JSON auslesen für Gemeinden
   results <- get_results(json_data,i)
   
 #Simulation Gemeinden
-#source("data_simulation_gemeinden.R")
+source("data_simulation_gemeinden.R")
   
 
   #Emergency adapt
@@ -34,7 +34,7 @@ for (i in 1:length(vorlagen_short)) {
   results_kantone <- get_results(json_data,i,"cantonal")
   
 #Simulation Kantone
-  #source("data_simulation_kantone.R")
+  source("data_simulation_kantone.R")
   
   Ja_Stimmen_Kanton <- results_kantone %>%
     select(Kantons_Nr,jaStimmenInProzent) %>%
@@ -165,6 +165,27 @@ for (i in 1:length(vorlagen_short)) {
   
   #Output Abstimmungen Gemeinde
   output_dw <- get_output_gemeinden(results)
+  
+  #Anpassungen (Hautemorges VD)
+  gemeinde_adapt <- output_dw[output_dw$Gemeinde_Nr == 5656,] 
+  
+  gemeinde_adapt$Gemeinde_Nr[1] <- 5421
+  output_dw <- rbind(output_dw,gemeinde_adapt)
+  
+  gemeinde_adapt$Gemeinde_Nr[1] <- 5625
+  output_dw <- rbind(output_dw,gemeinde_adapt)
+  
+  gemeinde_adapt$Gemeinde_Nr[1] <- 5478
+  output_dw <- rbind(output_dw,gemeinde_adapt)
+  
+  gemeinde_adapt$Gemeinde_Nr[1] <- 5494
+  output_dw <- rbind(output_dw,gemeinde_adapt)
+  
+  gemeinde_adapt$Gemeinde_Nr[1] <- 5644
+  output_dw <- rbind(output_dw,gemeinde_adapt)
+  
+  gemeinde_adapt$Gemeinde_Nr[1] <- 5500
+  output_dw <- rbind(output_dw,gemeinde_adapt)
   
   
   #Output speichern
