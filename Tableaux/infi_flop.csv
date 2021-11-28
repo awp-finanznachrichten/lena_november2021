@@ -22,30 +22,30 @@
 "21","Gonten","Gonten","Gonten","AI",44.337016575,"Gonten","Gonten","Gonten","AI","AI","AI",55.662983425,55.662983425,55.662983425
 "22","Illgau","Illgau","Illgau","SZ",44.356435644,"Illgau","Illgau","Illgau","SZ","SZ","SZ",55.643564356,55.643564356,55.643564356
 "23","Schwende","Schwende","Schwende","AI",44.454463481,"Schwende","Schwende","Schwende","AI","AI","AI",55.545536519,55.545536519,55.545536519
-"24","Sattel","Sattel","Sattel","SZ",44.654683065,"Sattel","Sattel","Sattel","SZ","SZ","SZ",55.345316935,55.345316935,55.345316935
-"25","Wiler (Lötschen)","Wiler (Lötschen)","Wiler (Lötschen)","VS",44.827586207,"Wiler (Lötschen)","Wiler (Lötschen)","Wiler (Lötschen)","VS","VS","VS",55.172413793,55.172413793,55.172413793
-"26","Humlikon","Humlikon","Humlikon","ZH",44.852941176,"Humlikon","Humlikon","Humlikon","ZH","ZH","ZH",55.147058824,55.147058824,55.147058824
-"27","Zumikon","Zumikon","Zumikon","ZH",45.141065831,"Zumikon","Zumikon","Zumikon","ZH","ZH","ZH",54.858934169,54.858934169,54.858934169
-"28","Engelberg","Engelberg","Engelberg","OW",45.317377732,"Engelberg","Engelberg","Engelberg","OW","OW","OW",54.682622268,54.682622268,54.682622268
-"29","Herrliberg","Herrliberg","Herrliberg","ZH",45.41429475,"Herrliberg","Herrliberg","Herrliberg","ZH","ZH","ZH",54.58570525,54.58570525,54.58570525
-"30","Böbikon","Böbikon","Böbikon","AG",45.555555556,"Böbikon","Böbikon","Böbikon","AG","AG","AG",54.444444444,54.444444444,54.444444444
-"31","Hergiswil (NW)","Hergiswil NW","Hergiswil NW","NW",45.604203152,"Hergiswil (NW)","Hergiswil NW","Hergiswil NW","NW","NW","NW",54.395796848,54.395796848,54.395796848
-"32","Bursinel","Bursinel","Bursinel","VD",46.113989637,"Bursinel","Bursinel","Bursinel","VD","VD","VD",53.886010363,53.886010363,53.886010363
-"33","Bergdietikon","Bergdietikon","Bergdietikon","AG",46.159936659,"Bergdietikon","Bergdietikon","Bergdietikon","AG","AG","AG",53.840063341,53.840063341,53.840063341
-"34","Uitikon","Uitikon","Uitikon","ZH",46.18852459,"Uitikon","Uitikon","Uitikon","ZH","ZH","ZH",53.81147541,53.81147541,53.81147541
-"35","Walchwil","Walchwil","Walchwil","ZG",46.280487805,"Walchwil","Walchwil","Walchwil","ZG","ZG","ZG",53.719512195,53.719512195,53.719512195
-"36","Steinerberg","Steinerberg","Steinerberg","SZ",46.428571429,"Steinerberg","Steinerberg","Steinerberg","SZ","SZ","SZ",53.571428571,53.571428571,53.571428571
-"37","Rüte","Rüte","Rüte","AI",46.454767726,"Rüte","Rüte","Rüte","AI","AI","AI",53.545232274,53.545232274,53.545232274
-"38","Erlenbach (ZH)","Erlenbach ZH","Erlenbach ZH","ZH",46.530772246,"Erlenbach (ZH)","Erlenbach ZH","Erlenbach ZH","ZH","ZH","ZH",53.469227754,53.469227754,53.469227754
-"39","Niederbüren","Niederbüren","Niederbüren","SG",46.714456392,"Niederbüren","Niederbüren","Niederbüren","SG","SG","SG",53.285543608,53.285543608,53.285543608
-"40","Porza","Porza","Porza","TI",46.857142857,"Porza","Porza","Porza","TI","TI","TI",53.142857143,53.142857143,53.142857143
-"41","Feusisberg","Feusisberg","Feusisberg","SZ",46.892430279,"Feusisberg","Feusisberg","Feusisberg","SZ","SZ","SZ",53.107569721,53.107569721,53.107569721
-"42","Wildhaus-Alt St. Johann","Wildhaus-Alt St. Johann","Wildhaus-Alt St. Johann","SG",46.901960784,"Wildhaus-Alt St. Johann","Wildhaus-Alt St. Johann","Wildhaus-Alt St. Johann","SG","SG","SG",53.098039216,53.098039216,53.098039216
-"43","Sisikon","Sisikon","Sisikon","UR",46.927374302,"Sisikon","Sisikon","Sisikon","UR","UR","UR",53.072625698,53.072625698,53.072625698
-"44","Vaulion","Vaulion","Vaulion","VD",46.982758621,"Vaulion","Vaulion","Vaulion","VD","VD","VD",53.017241379,53.017241379,53.017241379
-"45","Hundwil","Hundwil","Hundwil","AR",47.036328872,"Hundwil","Hundwil","Hundwil","AR","AR","AR",52.963671128,52.963671128,52.963671128
-"46","Küsnacht (ZH)","Küsnacht ZH","Küsnacht ZH","ZH",47.06539075,"Küsnacht (ZH)","Küsnacht ZH","Küsnacht ZH","ZH","ZH","ZH",52.93460925,52.93460925,52.93460925
-"47","Neerach","Neerach","Neerach","ZH",47.088750707,"Neerach","Neerach","Neerach","ZH","ZH","ZH",52.911249293,52.911249293,52.911249293
-"48","Morcote","Morcote","Morcote","TI",47.148288973,"Morcote","Morcote","Morcote","TI","TI","TI",52.851711027,52.851711027,52.851711027
-"49","Tannay","Tannay","Tannay","VD",47.202797203,"Tannay","Tannay","Tannay","VD","VD","VD",52.797202797,52.797202797,52.797202797
-"50","Rossa","Rossa","Rossa","GR",47.422680412,"Rossa","Rossa","Rossa","GR","GR","GR",52.577319588,52.577319588,52.577319588
+"24","Adelboden","Adelboden","Adelboden","BE",44.646271511,"Adelboden","Adelboden","Adelboden","BE","BE","BE",55.353728489,55.353728489,55.353728489
+"25","Sattel","Sattel","Sattel","SZ",44.654683065,"Sattel","Sattel","Sattel","SZ","SZ","SZ",55.345316935,55.345316935,55.345316935
+"26","Wiler (Lötschen)","Wiler (Lötschen)","Wiler (Lötschen)","VS",44.827586207,"Wiler (Lötschen)","Wiler (Lötschen)","Wiler (Lötschen)","VS","VS","VS",55.172413793,55.172413793,55.172413793
+"27","Humlikon","Humlikon","Humlikon","ZH",44.852941176,"Humlikon","Humlikon","Humlikon","ZH","ZH","ZH",55.147058824,55.147058824,55.147058824
+"28","Zumikon","Zumikon","Zumikon","ZH",45.141065831,"Zumikon","Zumikon","Zumikon","ZH","ZH","ZH",54.858934169,54.858934169,54.858934169
+"29","Engelberg","Engelberg","Engelberg","OW",45.317377732,"Engelberg","Engelberg","Engelberg","OW","OW","OW",54.682622268,54.682622268,54.682622268
+"30","Herrliberg","Herrliberg","Herrliberg","ZH",45.41429475,"Herrliberg","Herrliberg","Herrliberg","ZH","ZH","ZH",54.58570525,54.58570525,54.58570525
+"31","Böbikon","Böbikon","Böbikon","AG",45.555555556,"Böbikon","Böbikon","Böbikon","AG","AG","AG",54.444444444,54.444444444,54.444444444
+"32","Hergiswil (NW)","Hergiswil NW","Hergiswil NW","NW",45.604203152,"Hergiswil (NW)","Hergiswil NW","Hergiswil NW","NW","NW","NW",54.395796848,54.395796848,54.395796848
+"33","Bursinel","Bursinel","Bursinel","VD",46.113989637,"Bursinel","Bursinel","Bursinel","VD","VD","VD",53.886010363,53.886010363,53.886010363
+"34","Bergdietikon","Bergdietikon","Bergdietikon","AG",46.159936659,"Bergdietikon","Bergdietikon","Bergdietikon","AG","AG","AG",53.840063341,53.840063341,53.840063341
+"35","Uitikon","Uitikon","Uitikon","ZH",46.18852459,"Uitikon","Uitikon","Uitikon","ZH","ZH","ZH",53.81147541,53.81147541,53.81147541
+"36","Walchwil","Walchwil","Walchwil","ZG",46.280487805,"Walchwil","Walchwil","Walchwil","ZG","ZG","ZG",53.719512195,53.719512195,53.719512195
+"37","Steinerberg","Steinerberg","Steinerberg","SZ",46.428571429,"Steinerberg","Steinerberg","Steinerberg","SZ","SZ","SZ",53.571428571,53.571428571,53.571428571
+"38","Rüte","Rüte","Rüte","AI",46.454767726,"Rüte","Rüte","Rüte","AI","AI","AI",53.545232274,53.545232274,53.545232274
+"39","Erlenbach (ZH)","Erlenbach ZH","Erlenbach ZH","ZH",46.530772246,"Erlenbach (ZH)","Erlenbach ZH","Erlenbach ZH","ZH","ZH","ZH",53.469227754,53.469227754,53.469227754
+"40","Niederbüren","Niederbüren","Niederbüren","SG",46.714456392,"Niederbüren","Niederbüren","Niederbüren","SG","SG","SG",53.285543608,53.285543608,53.285543608
+"41","Porza","Porza","Porza","TI",46.857142857,"Porza","Porza","Porza","TI","TI","TI",53.142857143,53.142857143,53.142857143
+"42","Feusisberg","Feusisberg","Feusisberg","SZ",46.892430279,"Feusisberg","Feusisberg","Feusisberg","SZ","SZ","SZ",53.107569721,53.107569721,53.107569721
+"43","Wildhaus-Alt St. Johann","Wildhaus-Alt St. Johann","Wildhaus-Alt St. Johann","SG",46.901960784,"Wildhaus-Alt St. Johann","Wildhaus-Alt St. Johann","Wildhaus-Alt St. Johann","SG","SG","SG",53.098039216,53.098039216,53.098039216
+"44","Sisikon","Sisikon","Sisikon","UR",46.927374302,"Sisikon","Sisikon","Sisikon","UR","UR","UR",53.072625698,53.072625698,53.072625698
+"45","Vaulion","Vaulion","Vaulion","VD",46.982758621,"Vaulion","Vaulion","Vaulion","VD","VD","VD",53.017241379,53.017241379,53.017241379
+"46","Hundwil","Hundwil","Hundwil","AR",47.036328872,"Hundwil","Hundwil","Hundwil","AR","AR","AR",52.963671128,52.963671128,52.963671128
+"47","Küsnacht (ZH)","Küsnacht ZH","Küsnacht ZH","ZH",47.06539075,"Küsnacht (ZH)","Küsnacht ZH","Küsnacht ZH","ZH","ZH","ZH",52.93460925,52.93460925,52.93460925
+"48","Neerach","Neerach","Neerach","ZH",47.088750707,"Neerach","Neerach","Neerach","ZH","ZH","ZH",52.911249293,52.911249293,52.911249293
+"49","Morcote","Morcote","Morcote","TI",47.148288973,"Morcote","Morcote","Morcote","TI","TI","TI",52.851711027,52.851711027,52.851711027
+"50","Tannay","Tannay","Tannay","VD",47.202797203,"Tannay","Tannay","Tannay","VD","VD","VD",52.797202797,52.797202797,52.797202797
