@@ -494,3 +494,12 @@ Luzern, Uri, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Schaffhausen
 
 2021-11-28 14:19:56 Covid
 Luzern, Uri, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Schaffhausen, Appenzell Ausserrhoden, Appenzell Innerrhoden, St. Gallen, Graubünden, Aargau, Tessin, Wallis, Neuenburg, Jura, 
+
+2021-11-28 14:23:23 Pflege
+Luzern, Uri, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Schaffhausen, Appenzell Ausserrhoden, Appenzell Innerrhoden, St. Gallen, Graubünden, Aargau, Tessin, Wallis, Neuenburg, Jura, 
+
+2021-11-28 14:24:02 Justiz
+Luzern, Uri, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Schaffhausen, Appenzell Ausserrhoden, Appenzell Innerrhoden, St. Gallen, Graubünden, Aargau, Tessin, Wallis, Neuenburg, Jura, 
+
+2021-11-28 14:24:43 Covid
+Luzern, Uri, Obwalden, Nidwalden, Glarus, Zug, Freiburg, Solothurn, Schaffhausen, Appenzell Ausserrhoden, Appenzell Innerrhoden, St. Gallen, Graubünden, Aargau, Tessin, Wallis, Neuenburg, Jura, 
