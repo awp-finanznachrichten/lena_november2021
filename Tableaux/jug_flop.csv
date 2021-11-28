@@ -27,25 +27,25 @@
 "26","Duillier","Duillier","Duillier","VD",18.181818182,"Duillier","Duillier","Duillier","VD","VD","VD",81.818181818,81.818181818,81.818181818
 "27","Ormont-Dessus","Ormont-Dessus","Ormont-Dessus","VD",18.316831683,"Ormont-Dessus","Ormont-Dessus","Ormont-Dessus","VD","VD","VD",81.683168317,81.683168317,81.683168317
 "28","Saint-Saphorin (Lavaux)","Saint-Saphorin (Lavaux)","Saint-Saphorin (Lavaux)","VD",18.390804598,"Saint-Saphorin (Lavaux)","Saint-Saphorin (Lavaux)","Saint-Saphorin (Lavaux)","VD","VD","VD",81.609195402,81.609195402,81.609195402
-"29","Bursins","Bursins","Bursins","VD",18.481848185,"Bursins","Bursins","Bursins","VD","VD","VD",81.518151815,81.518151815,81.518151815
-"30","Rothenthurm","Rothenthurm","Rothenthurm","SZ",18.51556265,"Rothenthurm","Rothenthurm","Rothenthurm","SZ","SZ","SZ",81.48443735,81.48443735,81.48443735
-"31","Essertines-sur-Rolle","Essertines-sur-Rolle","Essertines-sur-Rolle","VD",18.571428571,"Essertines-sur-Rolle","Essertines-sur-Rolle","Essertines-sur-Rolle","VD","VD","VD",81.428571429,81.428571429,81.428571429
-"32","Echandens","Echandens","Echandens","VD",18.650793651,"Echandens","Echandens","Echandens","VD","VD","VD",81.349206349,81.349206349,81.349206349
-"33","Chavannes-le-Veyron","Chavannes-le-Veyron","Chavannes-le-Veyron","VD",18.666666667,"Chavannes-le-Veyron","Chavannes-le-Veyron","Chavannes-le-Veyron","VD","VD","VD",81.333333333,81.333333333,81.333333333
-"34","Vinzel","Vinzel","Vinzel","VD",18.75,"Vinzel","Vinzel","Vinzel","VD","VD","VD",81.25,81.25,81.25
-"35","Mollens (VD)","Mollens VD","Mollens VD","VD",18.852459016,"Mollens (VD)","Mollens VD","Mollens VD","VD","VD","VD",81.147540984,81.147540984,81.147540984
-"36","Hergiswil bei Willisau","Hergiswil bei Willisau","Hergiswil bei Willisau","LU",18.867924528,"Hergiswil bei Willisau","Hergiswil bei Willisau","Hergiswil bei Willisau","LU","LU","LU",81.132075472,81.132075472,81.132075472
-"37","Eclépens","Eclépens","Eclépens","VD",19.015659955,"Eclépens","Eclépens","Eclépens","VD","VD","VD",80.984340045,80.984340045,80.984340045
-"38","Villars-le-Terroir","Villars-le-Terroir","Villars-le-Terroir","VD",19.099099099,"Villars-le-Terroir","Villars-le-Terroir","Villars-le-Terroir","VD","VD","VD",80.900900901,80.900900901,80.900900901
-"39","Romanel-sur-Morges","Romanel-sur-Morges","Romanel-sur-Morges","VD",19.117647059,"Romanel-sur-Morges","Romanel-sur-Morges","Romanel-sur-Morges","VD","VD","VD",80.882352941,80.882352941,80.882352941
-"40","Bogis-Bossey","Bogis-Bossey","Bogis-Bossey","VD",19.133574007,"Bogis-Bossey","Bogis-Bossey","Bogis-Bossey","VD","VD","VD",80.866425993,80.866425993,80.866425993
-"41","Embd","Embd","Embd","VS",19.161676647,"Embd","Embd","Embd","VS","VS","VS",80.838323353,80.838323353,80.838323353
-"42","Cuarnens","Cuarnens","Cuarnens","VD",19.313304721,"Cuarnens","Cuarnens","Cuarnens","VD","VD","VD",80.686695279,80.686695279,80.686695279
-"43","Sergey","Sergey","Sergey","VD",19.35483871,"Sergey","Sergey","Sergey","VD","VD","VD",80.64516129,80.64516129,80.64516129
-"44","Bursinel","Bursinel","Bursinel","VD",19.371727749,"Bursinel","Bursinel","Bursinel","VD","VD","VD",80.628272251,80.628272251,80.628272251
-"45","Coppet","Coppet","Coppet","VD",19.383697813,"Coppet","Coppet","Coppet","VD","VD","VD",80.616302187,80.616302187,80.616302187
-"46","Eischoll","Eischoll","Eischoll","VS",19.391634981,"Eischoll","Eischoll","Eischoll","VS","VS","VS",80.608365019,80.608365019,80.608365019
-"47","Zwischbergen","Zwischbergen","Zwischbergen","VS",19.444444444,"Zwischbergen","Zwischbergen","Zwischbergen","VS","VS","VS",80.555555556,80.555555556,80.555555556
-"48","Unteriberg","Unteriberg","Unteriberg","SZ",19.446366782,"Unteriberg","Unteriberg","Unteriberg","SZ","SZ","SZ",80.553633218,80.553633218,80.553633218
-"49","Assens","Assens","Assens","VD",19.483870968,"Assens","Assens","Assens","VD","VD","VD",80.516129032,80.516129032,80.516129032
-"50","Vich","Vich","Vich","VD",19.576719577,"Vich","Vich","Vich","VD","VD","VD",80.423280423,80.423280423,80.423280423
+"29","Bure","Bure","Bure","JU",18.390804598,"Bure","Bure","Bure","JU","JU","JU",81.609195402,81.609195402,81.609195402
+"30","Bursins","Bursins","Bursins","VD",18.481848185,"Bursins","Bursins","Bursins","VD","VD","VD",81.518151815,81.518151815,81.518151815
+"31","Rothenthurm","Rothenthurm","Rothenthurm","SZ",18.51556265,"Rothenthurm","Rothenthurm","Rothenthurm","SZ","SZ","SZ",81.48443735,81.48443735,81.48443735
+"32","Essertines-sur-Rolle","Essertines-sur-Rolle","Essertines-sur-Rolle","VD",18.571428571,"Essertines-sur-Rolle","Essertines-sur-Rolle","Essertines-sur-Rolle","VD","VD","VD",81.428571429,81.428571429,81.428571429
+"33","Echandens","Echandens","Echandens","VD",18.650793651,"Echandens","Echandens","Echandens","VD","VD","VD",81.349206349,81.349206349,81.349206349
+"34","Chavannes-le-Veyron","Chavannes-le-Veyron","Chavannes-le-Veyron","VD",18.666666667,"Chavannes-le-Veyron","Chavannes-le-Veyron","Chavannes-le-Veyron","VD","VD","VD",81.333333333,81.333333333,81.333333333
+"35","Vinzel","Vinzel","Vinzel","VD",18.75,"Vinzel","Vinzel","Vinzel","VD","VD","VD",81.25,81.25,81.25
+"36","Mollens (VD)","Mollens VD","Mollens VD","VD",18.852459016,"Mollens (VD)","Mollens VD","Mollens VD","VD","VD","VD",81.147540984,81.147540984,81.147540984
+"37","Hergiswil bei Willisau","Hergiswil bei Willisau","Hergiswil bei Willisau","LU",18.867924528,"Hergiswil bei Willisau","Hergiswil bei Willisau","Hergiswil bei Willisau","LU","LU","LU",81.132075472,81.132075472,81.132075472
+"38","Eclépens","Eclépens","Eclépens","VD",19.015659955,"Eclépens","Eclépens","Eclépens","VD","VD","VD",80.984340045,80.984340045,80.984340045
+"39","Villars-le-Terroir","Villars-le-Terroir","Villars-le-Terroir","VD",19.099099099,"Villars-le-Terroir","Villars-le-Terroir","Villars-le-Terroir","VD","VD","VD",80.900900901,80.900900901,80.900900901
+"40","Romanel-sur-Morges","Romanel-sur-Morges","Romanel-sur-Morges","VD",19.117647059,"Romanel-sur-Morges","Romanel-sur-Morges","Romanel-sur-Morges","VD","VD","VD",80.882352941,80.882352941,80.882352941
+"41","Bogis-Bossey","Bogis-Bossey","Bogis-Bossey","VD",19.133574007,"Bogis-Bossey","Bogis-Bossey","Bogis-Bossey","VD","VD","VD",80.866425993,80.866425993,80.866425993
+"42","Embd","Embd","Embd","VS",19.161676647,"Embd","Embd","Embd","VS","VS","VS",80.838323353,80.838323353,80.838323353
+"43","Cuarnens","Cuarnens","Cuarnens","VD",19.313304721,"Cuarnens","Cuarnens","Cuarnens","VD","VD","VD",80.686695279,80.686695279,80.686695279
+"44","Sergey","Sergey","Sergey","VD",19.35483871,"Sergey","Sergey","Sergey","VD","VD","VD",80.64516129,80.64516129,80.64516129
+"45","Bursinel","Bursinel","Bursinel","VD",19.371727749,"Bursinel","Bursinel","Bursinel","VD","VD","VD",80.628272251,80.628272251,80.628272251
+"46","Coppet","Coppet","Coppet","VD",19.383697813,"Coppet","Coppet","Coppet","VD","VD","VD",80.616302187,80.616302187,80.616302187
+"47","Eischoll","Eischoll","Eischoll","VS",19.391634981,"Eischoll","Eischoll","Eischoll","VS","VS","VS",80.608365019,80.608365019,80.608365019
+"48","Zwischbergen","Zwischbergen","Zwischbergen","VS",19.444444444,"Zwischbergen","Zwischbergen","Zwischbergen","VS","VS","VS",80.555555556,80.555555556,80.555555556
+"49","Unteriberg","Unteriberg","Unteriberg","SZ",19.446366782,"Unteriberg","Unteriberg","Unteriberg","SZ","SZ","SZ",80.553633218,80.553633218,80.553633218
+"50","Assens","Assens","Assens","VD",19.483870968,"Assens","Assens","Assens","VD","VD","VD",80.516129032,80.516129032,80.516129032
