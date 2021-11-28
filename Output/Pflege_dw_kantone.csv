@@ -1,7 +1,7 @@
 "Kantons_Nr","Kanton_d","Kanton_f","Kanton_i","Ja_Stimmen_In_Prozent_Kanton","Nein_Stimmen_In_Prozent_Kanton","Kanton_color","Gemeinden_overall","Gemeinden_counted","Legende"
-1,"Zürich","Zurich","Zurigo",58.3,41.7,100,162,137,"137/162"
+1,"Zürich","Zurich","Zurigo",58.3,41.7,100,162,138,"138/162"
 2,"Bern","Berne","Berna",0,0,50,334,0,"0/334"
-3,"Luzern","Lucerne","Lucerna",59.4,40.6,100,80,78,"78/80"
+3,"Luzern","Lucerne","Lucerna",59.4,40.6,100,80,79,"79/80"
 4,"Uri","Uri","Uri",57.7,42.3,57.7,19,19,
 5,"Schwyz","Schwyz","Svitto",51.5,48.5,100,30,27,"27/30"
 6,"Obwalden","Obwald","Obvaldo",50.9,49.1,100,7,4,"4/7"
@@ -11,7 +11,7 @@
 10,"Freiburg","Fribourg","Friburgo",64.5,35.5,100,128,116,"116/128"
 11,"Solothurn","Soleure","Soletta",60.4,39.6,100,107,106,"106/107"
 12,"Basel-Stadt","Bâle-Ville","Basilea Città",0,0,50,3,0,"0/3"
-13,"Basel-Landschaft","Bâle-Campagne","Basilea Campagna",62.4,37.6,100,86,71,"71/86"
+13,"Basel-Landschaft","Bâle-Campagne","Basilea Campagna",62.4,37.6,100,86,75,"75/86"
 14,"Schaffhausen","Schaffhouse","Sciaffusa",63.4,36.6,63.4,26,26,
 15,"Appenzell Ausserrhoden","Appenzell Rhodes-Extérieures","Appenzello Esterno",54.2,45.8,100,20,6,"6/20"
 16,"Appenzell Innerrhoden","Appenzell Rhodes-Intérieures","Appenzello Interno",0,0,50,6,0,"0/6"
@@ -19,9 +19,9 @@
 18,"Graubünden","Grisons","Grigioni",61.7,38.3,61.7,101,101,
 19,"Aargau","Argovie","Argovia",57.9,42.1,100,210,150,"150/210"
 20,"Thurgau","Thurgovie","Turgovia",59.1,40.9,100,80,78,"78/80"
-21,"Tessin","Tessin","Ticino",56.1,43.9,100,108,100,"100/108"
-22,"Waadt","Vaud","Vaud",64.7,35.3,100,302,293,"293/302"
+21,"Tessin","Tessin","Ticino",56.2,43.8,100,108,105,"105/108"
+22,"Waadt","Vaud","Vaud",64.6,35.4,100,302,294,"294/302"
 23,"Wallis","Valais","Vallese",58.9,41.1,100,122,111,"111/122"
 24,"Neuenburg","Neuchâtel","Neuchâtel",0,0,50,27,0,"0/27"
 25,"Genf","Genève","Ginevra",0,0,50,45,0,"0/45"
-26,"Jura","Jura","Giura",0,0,50,53,0,"0/53"
+26,"Jura","Jura","Giura",65.7,34.3,100,53,44,"44/53"
