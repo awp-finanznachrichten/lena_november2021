@@ -368,3 +368,12 @@ Uri, Glarus, Schaffhausen, Graubünden,
 
 2021-11-28 13:38:49 Covid
 Uri, Glarus, Schaffhausen, Graubünden, 
+
+2021-11-28 13:39:43 Pflege
+Uri, Glarus, Zug, Schaffhausen, Graubünden, 
+
+2021-11-28 13:40:16 Justiz
+Uri, Glarus, Zug, Schaffhausen, Graubünden, 
+
+2021-11-28 13:40:54 Covid
+Uri, Glarus, Zug, Schaffhausen, Graubünden, 
