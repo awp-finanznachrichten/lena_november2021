@@ -296,3 +296,12 @@ Glarus, Graubünden,
 
 2021-11-28 13:19:40 Covid
 Glarus, Graubünden, 
+
+2021-11-28 13:21:07 Pflege
+Glarus, Graubünden, 
+
+2021-11-28 13:21:40 Justiz
+Glarus, Graubünden, 
+
+2021-11-28 13:22:13 Covid
+Glarus, Graubünden, 
