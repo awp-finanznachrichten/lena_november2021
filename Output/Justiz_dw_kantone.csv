@@ -2,7 +2,7 @@
 1,"Zürich","Zurich","Zurigo",32.3,67.7,0,162,135,"135/162"
 2,"Bern","Berne","Berna",0,0,50,334,0,"0/334"
 3,"Luzern","Lucerne","Lucerna",31.8,68.2,0,80,78,"78/80"
-4,"Uri","Uri","Uri",0,0,50,19,0,"0/19"
+4,"Uri","Uri","Uri",27.4,72.6,27.4,19,19,
 5,"Schwyz","Schwyz","Svitto",28.4,71.6,0,30,27,"27/30"
 6,"Obwalden","Obwald","Obvaldo",27.3,72.7,0,7,4,"4/7"
 7,"Nidwalden","Nidwald","Nidvaldo",29.6,70.4,0,11,10,"10/11"
@@ -18,7 +18,7 @@
 17,"St. Gallen","Saint-Gall","San Gallo",31.3,68.7,0,77,66,"66/77"
 18,"Graubünden","Grisons","Grigioni",33.6,66.4,33.6,101,101,
 19,"Aargau","Argovie","Argovia",32.7,67.3,0,210,150,"150/210"
-20,"Thurgau","Thurgovie","Turgovia",34.4,65.6,0,80,76,"76/80"
+20,"Thurgau","Thurgovie","Turgovia",34.5,65.5,0,80,78,"78/80"
 21,"Tessin","Tessin","Ticino",37.1,62.9,0,108,100,"100/108"
 22,"Waadt","Vaud","Vaud",25,75,0,302,290,"290/302"
 23,"Wallis","Valais","Vallese",30.4,69.6,0,122,111,"111/122"
